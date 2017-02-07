@@ -49,8 +49,8 @@ The following categories of attributes are optional:
 | --------- | ------ | ----------- | --------------------- | ------------- |
 | `splash_color` | hex value | background color to use if the splash screen image is not full screen | `splash_color=#121212`
 | `splash_min_time`<sup>1</sup> | integer | minimum amount of time (in milliseconds) to display the splash screen | `splash_min_time=1500`
-| `splash_screen_hd`<sup>2</sup> | string | local URI for the HD splash screen | `splash_screen_fhd=pkg:/images/splash-screen.png` | 1280x720
-| `splash_screen_sd`<sup>2</sup> | string | local URI for the SD splash screen | `splash_screen_fhd=pkg:/images/splash-screen.png` | 720x480
+| `splash_screen_hd`<sup>2</sup> | string | local URI for the HD splash screen | `splash_screen_hd=pkg:/images/splash-screen.png` | 1280x720
+| `splash_screen_sd`<sup>2</sup> | string | local URI for the SD splash screen | `splash_screen_sd=pkg:/images/splash-screen.png` | 720x480
 
 > <sup>1</sup> If no value is specified, then 1600 (1.6 seconds) is used. If 0 is specified, then there is no default time, so the splash screen disappears as soon as the application displays its first screen.   (This may result in the appearance of flashing, if your application shows its first screen quickly).
 
